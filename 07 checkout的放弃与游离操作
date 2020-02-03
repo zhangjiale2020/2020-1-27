@@ -1,0 +1,16 @@
+## checkout 放弃与游离操作
+
+| Git checkout a.txt                | 放弃的是工作区的修改                                         |
+| --------------------------------- | ------------------------------------------------------------ |
+|                                   | 留下a.txt 中的aaa, bb的内容                                  |
+| Git reset a.txt                   | 将之前增加到**<u>暂存区中的内容</u>**回退到工作区            |
+|                                   | 例如：a.txt  加了一个cc , 如果执行命令后，退回到工作区，提交时，cc内容丢失 |
+| Git commit -am '第一次不可这么用' | 第二次 即可以快速提交                                        |
+| git checkout shawan值             | 回退到自己想要的到达的版本                                   |
+|                                   | 1.修改后，必须提交                                           |
+|                                   | 2.创建分支的好时刻                                           |
+
+<img src="C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20200112232908010.png" alt="image-20200112232908010" />
+
+<img src="C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20200112232908010.png" alt="image-20200112232908010" style="zoom:80%;" />
+
